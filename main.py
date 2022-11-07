@@ -8,7 +8,7 @@ import json
 import sys
 from tqdm.auto import tqdm
 import time
-
+from websockets import client
 
 checkpoint_steps = 100
 
